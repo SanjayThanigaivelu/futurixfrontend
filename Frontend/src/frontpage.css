@@ -1,0 +1,385 @@
+body{
+    background-color:#0c1218;
+    padding: 0px;
+    margin: 0px;
+    color: white;
+}
+.header {
+    display: flex;
+    flex-direction: column; /* Stack vertically */
+    align-items: flex-start; /* Align everything to the left */
+ gap: 0.1rem;
+ margin: 5px;
+}
+.header h3,
+.header h4,
+.header p {
+  margin: 0;
+  line-height: 2.0; 
+}
+.logo{
+    width: 40px;
+    height: 40px;
+    display: block;
+    object-fit: cover;
+    margin: 0;
+    padding: 0;
+}
+.header p{
+    color: #d7d6d6;
+}
+.s1 {
+    color: #00c47a;
+  background-color: #0b2d24;
+  padding: 4px 8px;
+  height: 20px; 
+  display: inline-flex; 
+  align-items: center; 
+  border-radius: 15px;
+  font-weight: bold;
+  font-size: 0.85rem;
+  }
+
+
+.line{
+    background-color: rgba(215, 214, 214, 0.1); 
+    border: none;
+    height: 0.1px;
+}
+
+
+.m1para{
+    width: 90%;
+    text-align: left;
+}
+.addon{
+    text-decoration: underline;
+    cursor: pointer;
+   font-weight: bolder;
+}
+  
+.image-row {
+    display: flex;
+    justify-content: flex-start; 
+    align-items: center;  
+   gap: 30px;
+   position: relative;
+   margin-top:50px ;
+
+  }
+  
+  .firstImg,
+  .secondImg {
+    width: 43%; 
+    height: auto; 
+    z-index: 50;
+    top: -50px;
+    background-color: #1e1e1e;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5); 
+  }
+
+  .heading-2{
+    display: flex;
+    align-items: flex-start;
+    margin-top: 50px;
+  }
+  .card-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 15px;
+   width: 90%;
+    margin: 0 auto;
+    margin-left: 0px;
+  }
+  
+  .card {
+    background-color: #1e1e1e;
+    display: flex;                    
+    align-items: flex-start;            
+    gap: 15px;                        
+    padding: 10px;
+    
+    height: 100px;                    
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+  }
+  
+  .card-image {
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+    border-radius: 8px;
+    flex-shrink: 0;                  
+  }
+  
+  .card-text {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+  .date {
+    color: #aaa;
+    font-size: 14px;
+    margin-bottom: 4px;
+  }
+  
+  .headline {
+    font-size: 15px;
+    line-height: 1.3;
+  }
+
+
+*/-------------------------------------------------------------------------------------- */ 
+  
+
+.images-section {
+    padding: 20px;
+  }
+  
+  .heading3 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-top: 50px;
+  }
+  .content-wrapper {
+    display: flex;
+    align-items: flex-start;
+    gap: 10px;
+    width: 90%;
+  }
+  
+  .fourthimg {
+    width: 50%;
+    height: 380px;
+  
+  }
+  
+  .unorder {
+    flex: 1;
+    background-color:#181f25 ;
+    height: 300px;
+    padding: 40px;
+    align-items: flex-start;
+    justify-content: flex-start;
+    margin-left: 10px;
+    
+  }
+  
+  .fifth-heading {
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+  }
+  
+  .unorderlist {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    
+  }
+  
+  .unorderlist li {
+    position: relative;
+    padding-left: 30px;
+    margin-bottom: 1rem;
+    line-height: 1.5;
+    text-indent: 0px;
+    text-align: left; 
+    margin-left: 0;
+    
+  }
+  
+  .unorderlist li::before {
+    content: "•";
+    position: absolute;
+    left: 0px;
+    top: 5px;
+    color: #00ff88; 
+    font-size: 2.2rem;
+    line-height: 1.2rem;
+  }
+  .smalll{
+    padding-left: 30px;
+    color: #888;
+
+
+  }
+  .strongg{
+   margin-left: -250px;
+  }
+
+   
+
+   .head4 {
+    display: flex;
+    align-items: flex-start;
+    margin-top: 50px;
+   }
+
+   .sex-Seven {
+    display: flex; 
+    justify-content: space-between; 
+    width: 90%;
+    gap: 10px;
+  }
+  
+  .sixth, .seventh {
+    width: 49%; 
+    height: 40%; 
+    object-fit: cover; 
+  }
+
+  .threeflex{
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    gap: 10px;
+    margin-top: 50px;
+  }
+  .eight,.ten{
+    width: 30%;
+    height: 35%;
+    object-fit: cover;
+  }
+ .nine{
+    height: 380px;
+ }
+
+ .analysis{
+    display: flex;
+    align-items: flex-start;
+    margin-top: 50px;
+ }
+ .big1{
+    width: 90%;
+    
+ }
+ .eleven{
+    width: 99%;
+    object-fit: cover;
+ } 
+
+ .heading5{
+    display: flex;
+    align-items: flex-start;
+    margin-top: 50px;
+ }
+ .big2{
+    width: 90%;
+ }
+ .twelve{
+    width: 99%;
+    object-fit: cover; 
+ }
+
+ .section-2{
+
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 15px;
+    width: 90%;
+    margin: 0 auto;
+    margin-left: 0px;
+    margin-top: 50px;
+ }
+
+ .thirteen ,.fourtien,.unorder1{
+height: 100%;
+ }
+ .unorder1{
+    background-color:#181f25 ;
+    
+ }
+ .unorder1 li{
+    margin-left: 15px;
+ }
+ .unorderlist1 li::before {
+    content: "•";
+    position: absolute;
+    left: 0px;
+    top: 5px;
+    color: #00ff88; 
+    font-size: 2.2rem;
+    line-height: 1.2rem;
+  }
+
+  
+  .heading6{
+
+    display: flex;
+    align-items: flex-start;
+    margin-top: 50px;
+  }
+
+  .corprate-heading th {
+    padding-right: 20px; 
+  }
+  .child{
+    color: #aaa;
+  }
+
+  .fullTable {
+    background-color: #0f1113;
+    padding: 20px;
+    border-radius: 10px;
+    overflow-x: auto;
+  }
+  
+  .table2 {
+    width: 90%;
+    border-collapse: separate;
+    border-spacing: 0;
+    background-color: #1a1c1e;
+    color: white;
+    border: 1px solid rgba(215, 214, 214, 0.1);
+  }
+  
+  /* Header Styling */
+  .head2 th {
+    padding: 16px 20px;
+    text-align: left;
+    font-weight: bold;
+    background-color: #1f2225;
+    color: #ffffff;
+    border: 1px solid rgba(215, 214, 214, 0.1);
+  }
+  
+ 
+  .body2 .trr {
+    background-color: #1a1c1e;
+  }
+  
+  .body2 .trr:hover {
+    background-color: #25282c;
+  }
+  
+  .tdd {
+    padding: 14px 20px;
+    border-bottom: 1px solid rgba(215, 214, 214, 0.1);
+    border-right: 1px solid rgba(215, 214, 214, 0.1);
+    text-align: left;
+  }
+  
+
+  .trr td:last-child {
+    border-right: none;
+  }
+  
+
+  .paraheading{
+    display: flex;
+    align-items: flex-start;
+    margin-top: 50px;
+  }
+
+  .table3{
+    display: grid;
+
+  }
+  .heading{
+ grid-template-columns: repeat(2, 1fr);
+  }
+
+  
+  
