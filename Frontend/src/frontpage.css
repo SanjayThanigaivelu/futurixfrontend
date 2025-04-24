@@ -367,19 +367,43 @@ height: 100%;
   }
   
 
+
+
   .paraheading{
     display: flex;
     align-items: flex-start;
-    margin-top: 50px;
+  padding-top: 30px;
+    margin-left: 50px;
   }
-
-  .table3{
-    display: grid;
-
+.smallTable{
+    margin-left: 20px;
+}
+  .heading1{
+    padding-left: 30px;
+    color:#aaa ;
   }
-  .heading{
- grid-template-columns: repeat(2, 1fr);
+  .content{
+    padding-left: 30px;
+    text-align: left;
+ 
   }
+  .table{
+    background-color: #181f25;
+    width: 60%;
+    
+  }
+  .smallTable{
+    margin-top: 20px;
+    padding-top: 20px;
+  }
+  .cipla{
+    padding: 50px;
+    text-align: left;
+    margin-left: 0px;
+    width: 90%;
+    line-height: 2.0;
+  }
+ 
 
   
   

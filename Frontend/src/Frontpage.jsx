@@ -246,31 +246,31 @@ export class Frontpage extends PureComponent {
   </div>
 </div>
      </section>
-<section className='section-2'>
-<div className='table'>
+<section className='section2.0'>
 
-   <h4 className='paraheading'>About the Company Cipla</h4>
-  
-   <table>
+<div className='table'>
+<h4 className='paraheading'>About the Company Cipla</h4>
+   <table className='smallTable'>
    <thead>
     <tr>
-      <th className='heading'>Industry </th>
-      <th className='heading'>ISIN </th>
-      <th className='heading'>BSE Code </th>
-      <th className='heading'>NSE Code </th>
+      <th className='heading1'>Industry </th>
+      <th className='heading1'>ISIN </th>
+      <th className='heading1'>BSE Code </th>
+      <th className='heading1'>NSE Code </th>
     </tr>
   </thead>
   <tbody>
     <tr>
-      <td><strong>Tech </strong></td>
-      <td><strong>123 </strong></td>
-      <td><strong>123 </strong></td>
-      <td><strong>123 </strong></td>
+      <td className='content'><strong>Tech </strong></td>
+      <td className='content'><strong>123 </strong></td>
+      <td className='content'><strong>123 </strong></td>
+      <td className='content'><strong>123 </strong></td>
     </tr>
   </tbody>
    </table>
-   </div>
-  <div className='paraa'>
+   
+
+  
    <p className='cipla'>
    Cipla Limited is an India-based global pharmaceutical company. 
    The Company is engaged in manufacturing, developing and marketing a wide range of branded and 
@@ -286,7 +286,7 @@ export class Frontpage extends PureComponent {
         India and International markets.
    </p>
    </div>
-  
+
 
 <aside className='aside1'>
    <h4 className='Managment'>Managment Info</h4>
