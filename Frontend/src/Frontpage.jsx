@@ -181,8 +181,8 @@ export class Frontpage extends PureComponent {
 </div>
 
 <div className='section-2'>
+<img className='fourtien' src= {fourtien} alt='fourtien'/>
    <img className='thirteen' src= {thirteen} alt='thirteen'/>
-   <img className='fourtien' src= {fourtien} alt='fourtien'/>
    <div className='unorder1'>
    <h4 className='Insights'>Shareholding Insights</h4>
   <ul className='unorderlist'>
