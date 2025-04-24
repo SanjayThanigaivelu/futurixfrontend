@@ -272,7 +272,7 @@ body{
     width: 99%;
     object-fit: cover; 
  }
-
+/*-------------------------------------------------------------------------------------------------*/
  .section-2{
 
     display: grid;
@@ -318,10 +318,9 @@ height: 100%;
   .child{
     color: #aaa;
   }
-
+/*-------------------------------------------------------------------------------------------------*/
   .fullTable {
-    background-color: #0f1113;
-    padding: 20px;
+    padding: 20px 0 20px 0;
     border-radius: 10px;
     overflow-x: auto;
   }
@@ -330,12 +329,12 @@ height: 100%;
     width: 90%;
     border-collapse: separate;
     border-spacing: 0;
-    background-color: #1a1c1e;
     color: white;
     border: 1px solid rgba(215, 214, 214, 0.1);
+    
   }
   
-  /* Header Styling */
+  
   .head2 th {
     padding: 16px 20px;
     text-align: left;
@@ -366,9 +365,17 @@ height: 100%;
     border-right: none;
   }
   
+/*-------------------------------------------------------------------------------------------------*/
 
-
-
+  .section2-0{
+    display: grid;
+    grid-template-columns: 2fr 1fr; 
+    gap: 0rem; 
+    align-items: start;
+    width: 90%;
+    margin-top: 50px;
+  }
+  
   .paraheading{
     display: flex;
     align-items: flex-start;
@@ -389,7 +396,7 @@ height: 100%;
   }
   .table{
     background-color: #181f25;
-    width: 60%;
+    width: 95%;
     
   }
   .smallTable{
@@ -407,3 +414,126 @@ height: 100%;
 
   
   
+  
+  .aside1 {
+    background-color: #181f25;
+    padding: 58px;
+    width: 70%;
+    margin-left: 0px;
+  
+  }
+.sidepara{
+line-height: 2.0; 
+text-align: left;
+}
+
+
+/*-------------------------------------------------------------------------------------------------*/ 
+
+.pharma-table {
+  width: 90%;
+  border-collapse: collapse;
+  background-color: #0f1114;
+  border: none;
+}
+
+.headdd {
+  background-color: transparent;
+  border: none;
+}
+
+.thead {
+  padding: 12px 16px;
+  text-align: left;
+  font-weight: 600;
+  border: none; /* removes bottom lines from header */
+}
+
+.tboddy tr {
+  border: none; /* removes row separator lines */
+}
+
+.tboddy tr:hover {
+  background-color: #1a1d21;
+}
+
+.tdd {
+  padding: 12px 16px;
+  font-size: 14px;
+  text-align: left;
+  border: none; /* removes cell borders */
+}
+
+.negative {
+  color: #ef4444;
+  font-weight: 500;
+}
+
+.arrow {
+  color: #10b981;
+  margin-right: 4px;
+}
+
+
+/*-------------------------------------------------------------------------------------------------*/ 
+
+.heading-7{
+display: flex;
+align-items: flex-start;
+}
+
+.lastimage{
+  width: 90%;
+}
+.eighteen{
+  width: 100%;
+}
+
+/*-------------------------------------------------------------------------------------------------*/ 
+
+
+.foot{
+  margin-top: 50px;
+}
+.heading-8{
+display: flex;
+align-items: flex-start;
+}
+
+.firstAbout, .secondCipla {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #0f1114; /* optional: match your theme */
+  padding: 12px 16px;
+  border-radius: 8px; /* optional: for soft corners */
+  margin-bottom: 10px; /* spacing between blocks */
+  width: 88%;
+}
+
+.aboutCipla-1, .aboutCipla-2 {
+  font-size: 16px;
+  color: white;
+  font-weight: 500;
+}
+
+.icon {
+  font-size: 18px;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+
+.endpara{
+  background-color:#1a1d21;
+  width: 87%;
+  padding: 20px;
+  text-align: left;
+  margin-top: 50px;
+}
+.last-para{
+ text-align: left;
+ width: 80%;
+ line-height: 1.5;
+}

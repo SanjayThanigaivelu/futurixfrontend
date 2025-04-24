@@ -246,7 +246,9 @@ export class Frontpage extends PureComponent {
   </div>
 </div>
      </section>
-<section className='section2.0'>
+
+
+<section className='section2-0'>
 
 <div className='table'>
 <h4 className='paraheading'>About the Company Cipla</h4>
@@ -297,42 +299,47 @@ export class Frontpage extends PureComponent {
      The Pharmaceuticals segment is engaged in developing, mStates, South Africa, and the Rest of the
       World. It has its network of manufacturing, trading</p>
 </aside>
+
 </section>
-<section className='section3'>
-<h2 className='heading-6'>Peers Comparison</h2>
+
+
+<section className='section4'>
+<h2 className='heading6'>Peers Comparison</h2>
 <table className="pharma-table">
-      <thead>
+      <thead className='headdd'>
         <tr>
-          <th>Names</th>
-          <th>Technical Rating</th>
-          <th>Price</th>
-          <th>%Change</th>
-          <th>P/E</th>
-          <th>P/B</th>
-          <th>Dividend Yield</th>
-          <th>Debt to Equity</th>
+          <th className='thead'>Names</th>
+          <th className='thead'>Technical Rating</th>
+          <th className='thead'>Price</th>
+          <th className='thead'>%Change</th>
+          <th className='thead'>P/E</th>
+          <th className='thead'>P/B</th>
+          <th className='thead'>Dividend Yield</th>
+          <th className='thead'>Debt to Equity</th>
         </tr>
       </thead>
-      <tbody>
+      <tbody className='tboddy'>
         {data.map((item, index) => (
           <tr key={index}>
-            <td>{item.name}</td>
-            <td>
+            <td className='tdd'>{item.name}</td>
+            <td className='tdd'>
               <span className="arrow">&#x2198;</span> {item.rating}
             </td>
-            <td>{item.price}</td>
-            <td className="negative">{item.change}</td>
-            <td>{item.pe}</td>
-            <td>{item.pb}</td>
-            <td>{item.yield}</td>
-            <td>{item.debtEquity}</td>
+            <td className='tdd'>{item.price}</td>
+            <td className=" tdd negative">{item.change}</td>
+            <td className='tdd'>{item.pe}</td>
+            <td className='tdd'>{item.pb}</td>
+            <td className='tdd'>{item.yield}</td>
+            <td className='tdd'>{item.debtEquity}</td>
           </tr>
         ))}
       </tbody>
     </table>
 
 <h2 className='heading-7'>Volume Trends</h2>
+<div className='lastimage'>
 <img className='eighteen' src={eighteen} alt='eighteen'/>
+</div>
 </section>
 
 <footer className='foot'>
@@ -350,6 +357,7 @@ export class Frontpage extends PureComponent {
    </span>
    <span className='icon'> - </span>
 </div>
+<div className='endpara'>
   <p className='last-para'>Cipla Limited is an India-based global pharmaceutical company. 
   The Company is engaged in manufacturing, developing and marketing a wide range of branded and
    generic formulations and Active Pharmaceutical Ingredients (APIs). The Company operates through
@@ -359,6 +367,7 @@ export class Frontpage extends PureComponent {
     operations of the Company, a consumer healthcare, Biosimilars and specialty business. 
     Its product portfolio spans complex generics, as well as drugs in the respiratory, 
     anti-retroviral, urology, cardiology, anti-infective and central nervous system (CNS)</p>
+    </div>
 </footer>
      </main>
       </div>
